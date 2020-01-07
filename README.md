@@ -30,6 +30,8 @@ To deactivate, just type
 
 (env) C:\Users\User> deactivate
 
+# Step 2: Running the Streamlit web app locally
+
 While the environment is activated and assuming all necessary files (app.py) are in the same path, we can now run streamlit using this command
 
 (env) C:\Users\User>streamlit run app.py
@@ -39,6 +41,12 @@ Then a message similar to this should appear:
 You can now view your Streamlit app in your browser.
 
 ... and the corresponding Local and Network URL will also be printed on the terminal
+
+# Step 3: Heroku Deployment
+
+The web app has also been deployed using heroku.
+
+
 
 
 
