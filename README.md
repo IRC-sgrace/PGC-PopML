@@ -11,10 +11,10 @@ I used a machine running on Windows 10 so all these instructions have been teste
 The steps described below are the same from the python documentation as noted here: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 On the command line (press the windows button then type CMD), run the following commands
-> python -m pip install --upgrade pip
-> python -m pip install --user virtualenv
-> python -m venv env
-> .\env\Scripts\activate
+>> python -m pip install --upgrade pip
+>> python -m pip install --user virtualenv
+>> python -m venv env
+>> .\env\Scripts\activate
 
 Once the environment is activated, you should see something like this
 
