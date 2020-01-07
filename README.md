@@ -26,6 +26,10 @@ Once the environment is activated, you should see something like this
 
 ... or whatever the name of your current path is
 
+To deactivate, just type
+
+(env) C:\Users\User> deactivate
+
 While the environment is activated and assuming all necessary files (app.py) are in the same path, we can now run streamlit using this command
 
 (env) C:\Users\User>streamlit run app.py
