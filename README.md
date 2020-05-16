@@ -12,7 +12,7 @@ I used a machine running on Windows 10 so all these instructions have been teste
 The steps described below are the same from the python documentation as noted here: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 On the command line (press the windows button then type CMD), run the following commands
-> python -m pip install --upgrade pip
+> python -m pip install --upgrade pip --user
 
 > python -m pip install --user virtualenv
 
